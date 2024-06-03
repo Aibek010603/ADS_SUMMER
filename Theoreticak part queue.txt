@@ -1,0 +1,36 @@
+Theoretical Part:
+
+What is a Queue?
+
+A queue is a linear data structure that follows the First In, First Out (FIFO) principle. Imagine a line of people waiting for a bus. The person who arrived first gets on the bus first.
+Basic Operations of a Queue:
+
+Enqueue: Adding an item to the rear end of the queue.
+Dequeue: Removing the frontmost item from the queue.
+isEmpty: Checking if the queue is empty.
+Size: Finding the number of items in the queue.
+How Does It Work?
+
+You can implement a queue using a list in Python. Think of the list as a line of items.
+When you enqueue an item, you add it to the end of the list.
+When you dequeue an item, you remove the first item from the list.
+The front of the queue corresponds to the first item in the list.
+
+
+Теоретическая часть:
+
+Что такое очередь (Queue)?
+
+Очередь - это линейная структура данных, которая следует принципу первым пришел - первым ушел (First In, First Out, FIFO). Представьте себе очередь людей, ожидающих автобус. Человек, который пришел первым, садится в автобус первым.
+Основные операции с очередью:
+
+Enqueue (Добавить): Добавление элемента в конец очереди.
+Dequeue (Извлечь): Удаление первого элемента из очереди.
+isEmpty (Пустой): Проверка, пуста ли очередь.
+Size (Размер): Получение количества элементов в очереди.
+Как это работает?
+
+Вы можете реализовать очередь с использованием списка в Python. Думайте о списке как о линии из элементов.
+Когда вы добавляете элемент в очередь (enqueue), вы добавляете его в конец списка.
+Когда вы извлекаете элемент из очереди (dequeue), вы удаляете первый элемент из списка.
+Передняя часть очереди соответствует первому элементу в списке.

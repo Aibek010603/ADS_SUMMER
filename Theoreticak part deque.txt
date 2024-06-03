@@ -1,0 +1,34 @@
+Theoretical Part:
+
+What is a Deque?
+
+A deque, short for double-ended queue, is a linear data structure that allows insertion and deletion of elements from both the front and the rear. It's like a combination of a stack and a queue.
+Basic Operations of a Deque:
+
+addFront: Adding an item to the front of the deque.
+addRear: Adding an item to the rear of the deque.
+removeFront: Removing an item from the front of the deque.
+removeRear: Removing an item from the rear of the deque.
+isEmpty: Checking if the deque is empty.
+Size: Finding the number of items in the deque.
+How Does It Work?
+
+You can implement a deque using a list in Python. Think of the list as a line where you can both enter and exit from both ends.
+Adding and removing items from the front or rear end of the deque adjusts the indices accordingly.
+
+
+Что такое дек (Deque)?
+
+Дек, сокращение от двусторонняя очередь (double-ended queue), является линейной структурой данных, которая позволяет вставлять и удалять элементы как с начала, так и с конца. Это похоже на комбинацию стека и очереди.
+Основные операции с деком:
+
+addFront (Добавить спереди): Добавление элемента в начало дека.
+addRear (Добавить сзади): Добавление элемента в конец дека.
+removeFront (Удалить спереди): Удаление элемента с начала дека.
+removeRear (Удалить сзади): Удаление элемента с конца дека.
+isEmpty (Пустой): Проверка, пуст ли дек.
+Size (Размер): Получение количества элементов в деке.
+Как это работает?
+
+Вы можете реализовать дек, используя список в Python. Представьте себе список как линию, где вы можете входить и выходить с обеих сторон.
+Добавление и удаление элементов с начала или конца дека автоматически корректирует индексы.

@@ -1,0 +1,43 @@
+Theoretical Part:
+
+What is a Stack?
+
+A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. Imagine a stack of plates. You add a new plate on top, and when you need to remove one, you take the topmost plate first.
+Basic Operations of a Stack:
+
+Push: Adding an item to the top of the stack.
+Pop: Removing the topmost item from the stack.
+Peek (or Top): Viewing the topmost item without removing it.
+isEmpty: Checking if the stack is empty.
+Size: Finding the number of items in the stack.
+How Does It Work?
+
+You can implement a stack using a list in Python. Think of the list as a stack of items.
+When you push an item, you add it to the end of the list.
+When you pop an item, you remove the last item from the list.
+The top of the stack corresponds to the last item in the list.
+
+
+
+Теоретическая часть:
+
+Что такое стек?
+
+Стек - это линейная структура данных, которая следует принципу последним пришел - первым ушел (Last In, First Out, LIFO). Представьте себе стопку тарелок. Вы добавляете новую тарелку сверху, и когда вам нужно убрать одну, вы берете самую верхнюю сначала.
+Основные операции со стеком:
+
+Push (Поместить): Добавление элемента на вершину стека.
+Pop (Извлечь): Удаление верхнего элемента из стека.
+Peek (Посмотреть): Просмотр верхнего элемента без его удаления.
+isEmpty (Пустой): Проверка, пуст ли стек.
+Size (Размер): Получение количества элементов в стеке.
+Как это работает?
+
+Вы можете реализовать стек, используя список в Python. Думайте о списке как о стопке предметов.
+Когда вы помещаете элемент, вы добавляете его в конец списка.
+Когда вы извлекаете элемент, вы удаляете последний элемент из списка.
+Верхний элемент стека соответствует последнему элементу списка.
+
+
+
+
