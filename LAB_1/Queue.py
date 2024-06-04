@@ -1,5 +1,5 @@
 class Queue:
-    def _init_(self):
+    def __init__(self):
         self.items = []  # Хранение элементов в кью
 
     def enqueue(self, item):

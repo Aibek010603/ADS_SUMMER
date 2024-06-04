@@ -1,5 +1,5 @@
 class Stack:
-    def _init_(self):
+    def __init__(self):
         self.items = []  # здесь будет храниться элементы стека
 
     def push(self, item):

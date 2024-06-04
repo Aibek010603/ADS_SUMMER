@@ -1,5 +1,5 @@
 class Deque:
-    def _init_(self):
+    def __init__(self):
         self.items = []  # Создаем пустой список для дека
 
     def addFront(self, item):
