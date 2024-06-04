@@ -1,30 +1,29 @@
 class Stack:
     def _init_(self):
-        self.items = []  # Инициализация пустого списка для хранения элементов стека
+        self.items = []  # здесь будет храниться элементы стека
 
     def push(self, item):
-        self.items.append(item)  # Добавление элемента в конец списка
+        self.items.append(item)  # добавляет элемент в конец списка
 
     def pop(self):
         if not self.is_empty():  # Проверка, что стек не пуст
-            return self.items.pop()  # Удаление и возврат последнего элемента списка (вершина стека)
+            return self.items.pop()  
         else:
-            return None  # Возвращение None, если стек пуст
+            return None  
 
     def peek(self):
-        if not self.is_empty():  # Проверка, что стек не пуст
-            return self.items[-1]  # Возвращение последнего элемента списка (вершина стека)
+        if not self.is_empty():  
+            return self.items[-1]  
         else:
-            return None  # Возвращение None, если стек пуст
+            return None  
 
     def is_empty(self):
-        return len(self.items) == 0  # Проверка, пуст ли список
+        return len(self.items) == 0  
 
     def size(self):
         return len(self.items)  # Возвращение количества элементов в списке (размер стека)
 
 
-# Тестирование реализации стека
 stack = Stack()
 stack.push(1)
 stack.push(2)

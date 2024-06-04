@@ -1,24 +1,23 @@
 class Queue:
     def _init_(self):
-        self.items = []  # Инициализация пустого списка для хранения элементов очереди
+        self.items = []  # Хранение элементов в кью
 
     def enqueue(self, item):
         self.items.append(item)  # Добавление элемента в конец списка
 
     def dequeue(self):
-        if not self.is_empty():  # Проверка, что очередь не пуста
-            return self.items.pop(0)  # Удаление и возврат первого элемента из списка (передняя часть очереди)
+        if not self.is_empty():  
+            return self.items.pop(0) 
         else:
             return None  # Возвращение None, если очередь пуста
 
     def is_empty(self):
-        return len(self.items) == 0  # Проверка, пуст ли список
+        return len(self.items) == 0 
 
     def size(self):
         return len(self.items)  # Возвращение количества элементов в списке (размер очереди)
 
 
-# Тестирование реализации очереди
 queue = Queue()
 queue.enqueue(1)
 queue.enqueue(2)
